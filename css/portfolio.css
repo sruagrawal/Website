@@ -1,0 +1,39 @@
+header {
+  font-family: fantasy;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav {
+  width: 33.3%;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+#logo {
+  width: 33.3%;
+}
+
+#container {
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+}
+
+.card {
+  width: 33.3%;
+  font-family:cursive;
+  display: inline-block;
+}
+
+
+.card img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+#works {
+  display:flex;
+  flex-wrap: wrap;
+}
