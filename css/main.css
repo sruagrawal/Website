@@ -66,3 +66,37 @@ hr {
 #works {
   display: flex;
 }
+
+@media screen and (max-width:799px){
+  nav,
+  hr,
+  .name,
+  #logo{
+    width: 100%;
+  }
+
+  .workItem{
+    width: 100%;
+    padding: 15px 0 10px 0;
+    border: solid;
+    border-color: #32defd;
+  }
+
+  .workItem img{
+    max-width: 75%;
+    max-height: 75%;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+
+  nav ul li {
+    width: 33.3%;
+  }
+
+  #works{
+    display: block;
+  }
+}
