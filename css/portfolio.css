@@ -27,7 +27,6 @@ nav ul li {
   display: inline-block;
 }
 
-
 .card img {
   max-width: 50%;
   max-height: 50%;
@@ -36,4 +35,16 @@ nav ul li {
 #works {
   display:flex;
   flex-wrap: wrap;
+}
+
+.name {
+  color: #3d6fff;
+  width: 33.3%;
+}
+
+hr {
+  width: 80%;
+  height: 5px;
+  background-color: #32defd;
+  border: none;
 }

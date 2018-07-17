@@ -10,19 +10,6 @@ header {
   width: 33.3%;
 }
 
-
-.workItem {
-  width: 33.3%;
-  font-family:cursive;
-}
-
-
-.workItem img {
-  max-width: 50%;
-  max-height: 50%;
-}
-
-
 nav {
   width: 33.3%;
 }
@@ -38,12 +25,6 @@ nav ul li {
 }
 
 
-#mainImg {
-  max-height: 70%;
-  max-width: 70%;
-}
-
-
 #title {
   color: #7d97fd;
 }
@@ -55,6 +36,20 @@ nav ul li {
 }
 
 
+body{
+  margin: 0;
+}
+
+
+body p{
+  padding: 0;
+}
+
+#canvas{
+    background-color: #e5e5f8;
+}
+
+
 hr {
   width: 80%;
   height: 5px;
@@ -62,7 +57,21 @@ hr {
   border: none;
 }
 
+@media screen and (max-width:799px){
+  nav,
+  hr,
+  .name,
+  #logo{
+    width: 100%;
+  }
 
-#works {
-  display: flex;
+  nav ul {
+    display: flex;
+  }
+
+
+  nav ul li {
+    width: 33.3%;
+  }
+
 }
