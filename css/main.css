@@ -10,19 +10,6 @@ header {
   width: 33.3%;
 }
 
-
-.workItem {
-  width: 33.3%;
-  font-family:cursive;
-}
-
-
-.workItem img {
-  max-width: 50%;
-  max-height: 50%;
-}
-
-
 nav {
   width: 33.3%;
 }
@@ -38,12 +25,6 @@ nav ul li {
 }
 
 
-#mainImg {
-  max-height: 70%;
-  max-width: 70%;
-}
-
-
 #title {
   color: #7d97fd;
 }
@@ -55,16 +36,25 @@ nav ul li {
 }
 
 
+body{
+  margin: 0;
+}
+
+
+body p{
+  padding: 0;
+}
+
+#canvas{
+    background-color: #e5e5f8;
+}
+
+
 hr {
   width: 80%;
   height: 5px;
   background-color: #32defd;
   border: none;
-}
-
-
-#works {
-  display: flex;
 }
 
 @media screen and (max-width:799px){
@@ -73,18 +63,6 @@ hr {
   .name,
   #logo{
     width: 100%;
-  }
-
-  .workItem{
-    width: 100%;
-    padding: 15px 0 10px 0;
-    border: solid;
-    border-color: #32defd;
-  }
-
-  .workItem img{
-    max-width: 75%;
-    max-height: 75%;
   }
 
   nav ul {
@@ -96,7 +74,4 @@ hr {
     width: 33.3%;
   }
 
-  #works{
-    display: block;
-  }
 }
