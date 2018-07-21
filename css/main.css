@@ -1,3 +1,11 @@
+*{
+  user-select: none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+}
+
+
 header {
   font-family: fantasy;
   display: flex;
@@ -41,10 +49,6 @@ body{
 }
 
 
-body p{
-  padding: 0;
-}
-
 #canvas{
     background-color: #e5e5f8;
 }
@@ -55,6 +59,27 @@ hr {
   height: 5px;
   background-color: #32defd;
   border: none;
+  margin-bottom: 0;
+}
+
+
+.toolbar{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.tool{
+  width: 33%;
+  display: inline-block;
+}
+
+
+ .radControl{
+  display: inline-block;
+  width: 20px;
+  border: 1px solid;
+  border-radius: 5px;
 }
 
 @media screen and (max-width:799px){
