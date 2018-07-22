@@ -61,3 +61,23 @@ incRad.addEventListener('click', function(){
 });
 
 setRadius(defaultRad);
+
+
+
+var swatches = document.getElementsByClassName('swatch');
+for(var i=0, n=swatches.length; i<n; i++){
+  swatches[i].addEventListener('click', function(e){
+    var swatch = e.target;
+    setColor(swatch.style.backgroundColor);
+    swatch.className += ' active';
+  });
+}
+
+function setColor(color){
+  context.fillStyle = color;
+  context.strokeStyle = color;
+  var active = document.getElementsByClassName('active')[0];
+  if(active){
+    active.className = 'swatch';
+  }
+}
