@@ -18,14 +18,26 @@
         </nav>
         <div class="name">
           <h1>Srujan Agrawal</h1>
-          <h3>Software Engineer in Training</h3>
+          <h3>Software Engineer</h3>
         </div>
       </header>
       <hr>
       <body>
-        <p><b>Draw on me!</b></p>
-        <canvas id='canvas'></canvas>
-        <script src="../js/main.js"></script>
+        <div id="toolbar">
+          <div id="rad" class="tool">
+            Radius <span id="radVal">10</span>
+            <div id="decRad" class="radControl">-</div>
+            <div id="incRad" class="radControl">+</div>
+          </div>
+          <div class="tool"><p><b>Draw on me!</b></p></div>
+          <div id="colors" class="tool">
+            <div class="swatch active" style="background-color: black"></div>
+            <div class="swatch" style="background-color: blue"></div>
+            <div class="swatch" style="background-color: red"></div>
+          </div>
+        </div>
       </body>
+      <canvas id='canvas'></canvas>
+      <script src="../js/main.js"></script>
     </div>
 </html>
